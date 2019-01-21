@@ -19,5 +19,7 @@ function get_server_cpu_usage(){
 
 }
 
-<p><span class="description">Server Memory Usage:</span> <span class="result">= get_server_memory_usage() ?&gt;%</span></p>
-<p><span class="description">Server CPU Usage: </span> <span class="result">= get_server_cpu_usage() ?&gt;%</span></p>
+?>
+
+<p><span class="description">Server Memory Usage:</span> <span class="result">= <?php echo get_server_memory_usage(); ?></span></p>
+<p><span class="description">Server CPU Usage: </span> <span class="result">= <?php echo get_server_cpu_usage(); ?></span></p>
